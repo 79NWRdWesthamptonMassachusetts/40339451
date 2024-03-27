@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Normal Website</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .content {
+    margin-top: 50px;
+  }
+  #inputField {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  #message {
+    color: green;
+    font-weight: bold;
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="content">
+  <h1>@324523525</h1>
+  <p>40339451</p>
+  <input type="text" id="inputField" placeholder="Type 'whatever'">
+  <p id="message">please head here. https://pin.it/7z2LtacBw</p>
+</div>
+
+<script>
+  const inputField = document.getElementById('inputField');
+  const message = document.getElementById('message');
+
+  inputField.addEventListener('input', function() {
+    if (inputField.value === '14 13 14 11') {
+      message.style.display = 'block';
+    } else {
+      message.style.display = 'none';
+    }
+  });
+</script>
+
+</body>
+</html>
